@@ -1,0 +1,33 @@
+/* .bg {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(../../images/bg-img.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur(1px);
+}
+.index{
+    z-index: 5;
+} */
+
+.banner-img{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/bg-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    filter: blur(3px);
+}
+.banner-text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    text-align: center;
+
+}
